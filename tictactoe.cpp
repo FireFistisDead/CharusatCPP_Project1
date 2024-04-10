@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 // #include <cstdlib>
-// #include <ctime>
+#include <ctime>
 using namespace std;
 
 // Function to display the Tic Tac Toe board
@@ -88,7 +88,7 @@ int main() {
     vector<vector<char>> board(3, vector<char>(3, ' '));
     int row, col;
 
-    cout << "Tic Tac Toe - Computer Wins!" << endl;
+    cout << "Welcome to Tic Tac Toe" << endl;
     cout << "Player: X, Computer: O" << endl;
 
     // Main game loop
